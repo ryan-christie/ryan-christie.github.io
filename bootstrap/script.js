@@ -35,7 +35,7 @@ $randomBtn.click(function() {
 });
 
 $('#get-map-data').on('click', function() {
-	$.getJSON("http://feeds.illinoisstate.edu/map/api/locations/ou?callback=?")
+	$.getJSON("https://feeds.illinoisstate.edu/map/api/locations/ou?callback=?")
 		
 		.done(function(data) {
 
